@@ -1,0 +1,185 @@
+/**
+by https://codepen.io/brianjhanson/pen/Dtjvw
+**/
+/* line 6, ../sass/_slider.scss */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 12, ../sass/_slider.scss */
+.cf:after, .branding:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 20, ../sass/_slider.scss */
+.branding {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* line 27, ../sass/_slider.scss */
+h1, .factlist {
+  font-size: 30px;
+}
+
+/* line 31, ../sass/_slider.scss */
+h1 {
+  float: left;
+  font-weight: 300;
+  margin: 0;
+}
+
+/* line 37, ../sass/_slider.scss */
+.window {
+  position: relative;
+  overflow: hidden;
+  height: 55px;
+  float: left;
+  margin: 0 0 0 .5em;
+  margin-top: 10px;
+  width: 60%;
+}
+
+/* line 47, ../sass/_slider.scss */
+.factlist {
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0;
+  padding: 0;
+  -moz-transform-origin: -80px 0;
+  -ms-transform-origin: -80px 0;
+  -webkit-transform-origin: -80px 0;
+  transform-origin: -80px 0;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -moz-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+/* line 58, ../sass/_slider.scss */
+.factlist li {
+  height: 0;
+  position: absolute;
+  list-style: none;
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-transform-origin: -80px 50%;
+  -ms-transform-origin: -80px 50%;
+  -webkit-transform-origin: -80px 50%;
+  transform-origin: -80px 50%;
+}
+
+/* line 4, ../sass/main.scss */
+body,
+html {
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* line 11, ../sass/main.scss */
+.nav-wrapper {
+  background-color: black !important;
+}
+
+/* line 15, ../sass/main.scss */
+nav {
+  background-color: black !important;
+  position: fixed;
+  z-index: 3;
+}
+
+/* line 21, ../sass/main.scss */
+#welcome {
+  width: 70%;
+}
+
+/* line 25, ../sass/main.scss */
+.black-container {
+  background-color: black;
+  opacity: 0.8;
+}
+
+/* line 30, ../sass/main.scss */
+.brown-container {
+  background-color: #341616;
+  opacity: 0.9;
+}
+
+/* line 35, ../sass/main.scss */
+.orange-container {
+  background-color: #584040;
+  opacity: 0.9;
+}
+
+/* line 40, ../sass/main.scss */
+.normal-text {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
+
+/* line 46, ../sass/main.scss */
+.next-container {
+  width: 70%;
+  margin-top: -15px;
+}
+
+/* line 51, ../sass/main.scss */
+.text-white {
+  color: white;
+}
+
+/* line 55, ../sass/main.scss */
+.sub {
+  font-weight: bold;
+  font-size: 40px;
+  font-family: 'Cookie';
+}
+
+/* line 61, ../sass/main.scss */
+.icon {
+  font-size: 40px;
+  color: #C9B2AA;
+}
+
+/* line 66, ../sass/main.scss */
+.extra-padding {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* line 71, ../sass/main.scss */
+#welcome-text {
+  font-family: 'Cookie', serif;
+  color: white;
+  font-size: 100px;
+  text-align: right;
+  margin-bottom: 0;
+}
+
+/* line 79, ../sass/main.scss */
+#slider {
+  font-family: 'Cookie', serif;
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  color: #C9B2AA;
+}
+
+/* line 87, ../sass/main.scss */
+.glow {
+  text-shadow: 0 0 4px #FFF, 0 0 8px #FFF, 0 0 10px #FFF;
+}

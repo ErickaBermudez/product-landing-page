@@ -1,0 +1,65 @@
+@import "compass/css3";
+/**
+by https://codepen.io/brianjhanson/pen/Dtjvw
+**/
+
+*{
+  @include box-sizing(border-box);
+}
+
+
+.cf{
+	&:after{
+		content:"";
+		display:table;
+		clear:both;
+	}
+}
+
+
+.branding{
+  @extend .cf;
+  width: 80%;
+  margin: 0 auto;
+
+}
+
+h1, .factlist{
+  font-size: 30px;
+}
+
+h1{
+  float: left;
+  font-weight: 300;
+  margin: 0;
+}
+
+.window{
+  position: relative;
+  overflow: hidden;
+  height: 55px;
+  float: left;
+  margin: 0 0 0 .5em;
+    margin-top: 10px;
+  width: 60%;
+}
+
+.factlist {
+  color: rgba(255,255,255,.8);
+  margin: 0;
+  padding: 0;
+  @include transform-origin(-80px, 0);
+  @include transition-property(all);
+  @include transition-timing-function(ease-in-out);
+  @include transition-duration(.5s);
+}
+
+
+.factlist li {
+  height: 0;
+  position: absolute;
+  list-style: none;
+  @include backface-visibility(hidden);
+  @include transform-origin(-80px, 50%);
+
+}
