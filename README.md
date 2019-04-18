@@ -1,2 +1,5 @@
 # product-landing-page
-A simple product landing page for offering translation services. To open, you can download the project and open the index.html page. 
+A simple product landing page to offer cupcakes. To work with it you will need to download:
+
+* Ruby
+* Compass
