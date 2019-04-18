@@ -1,5 +1,11 @@
 @import 'slider';
-$hello-width: 70%;
+
+//breakpoints
+$break: 700px;
+
+$hello-width: 65%;
+$hello-large: 100%;
+$input-focus-color: #827717;
 
 body,
 html {
@@ -7,6 +13,7 @@ html {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
 
 .nav-wrapper {
   background-color: black !important;
@@ -16,25 +23,19 @@ nav {
   background-color: black !important;
   position: fixed;
   z-index: 3;
-}
 
-#welcome {
-  width: $hello-width;
 }
 
 .black-container {
   background-color: black;
-  opacity: 0.8;
 }
 
 .brown-container {
   background-color: #341616;
-  opacity: 0.9;
 }
 
 .orange-container {
-  background-color: #584040;
-  opacity: 0.9;
+  background-color: #3b2424;
 }
 
 .normal-text {
@@ -45,7 +46,13 @@ nav {
 
 .next-container {
   width: $hello-width;
-  margin-top: -15px;
+  opacity: 0.8;
+  @media screen and (max-width: $break){
+    width: $hello-large;
+
+  }
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .text-white {
@@ -84,6 +91,28 @@ nav {
   color: #C9B2AA;
 }
 
+#slides{
+  @media screen and (max-width: $break){
+    display: none;
+  }
+}
+
+#list-qualities{
+  display: none;
+  @media screen and (max-width: $break){
+    display: inline;
+  }
+}
+
 .glow {
   text-shadow: 0 0 4px #FFF, 0 0 8px #FFF, 0 0 10px #FFF;
+}
+
+#submit {
+  border-color: #009688 !important;
+  text-transform: lowercase;
+}
+
+.form-group{
+  color: white;
 }
