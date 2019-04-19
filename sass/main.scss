@@ -1,7 +1,7 @@
 @import 'slider';
 
 //breakpoints
-$break: 700px;
+$break: 900px;
 
 $hello-width: 65%;
 $hello-large: 100%;
@@ -38,10 +38,13 @@ nav {
   background-color: #3b2424;
 }
 
+.white-container{
+  background-color: white;
+}
 .normal-text {
   color: white;
   font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .next-container {
@@ -53,6 +56,7 @@ nav {
   }
   margin-top: 0px;
   margin-bottom: 0px;
+  padding: 10px;
 }
 
 .text-white {
@@ -75,7 +79,7 @@ nav {
   padding-bottom: 50px;
 }
 
-#welcome-text {
+.welcome-text {
   font-family: 'Cookie', serif;
   color: white;
   font-size: 100px;
@@ -115,4 +119,42 @@ nav {
 
 .form-group{
   color: white;
+}
+
+.black-text{
+  color: black !important;
+}
+
+.brown-border{
+  border: 1px solid #341616;
+  border-radius: 20px;
+}
+
+#cupcake-banner{
+  width: 100%;
+  display: none;
+  @media screen and (max-width: $break){
+    display: inline;
+  }
+}
+
+#cupcake-image{
+  @media screen and (max-width: $break){
+    display: none;
+  }
+}
+
+#cupcake-2{
+  @media screen and (max-width: $break){
+    display: none;
+  }
+}
+
+#video {
+  width: 563px;
+  height: 422px;
+  @media screen and (max-width: $break){
+    width: 400px;
+    height: 300px;
+  }
 }

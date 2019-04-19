@@ -4,7 +4,7 @@
  <head>
    <meta charset="UTF-8">
    <title>Creaty</title>
-   <meta name="description" content="DESCRIPTION">
+   <meta name="description" content="Creaty Cupcakes">
    <!-- Compiled and minified CSS -->
    <link rel="stylesheet" href="stylesheets/main.css">
    <link href="https://fonts.googleapis.com/css?family=Suranna" rel="stylesheet">
@@ -25,27 +25,20 @@
      <nav id="nav-bar">
        <div class="nav-wrapper">
          <a href="#" class="brand-logo"></a>
-         <img src="images/logo.png" alt="logo" width="50px" height="50px"></img>
+         <img id="header-img" src="https://dumielauxepices.net/sites/default/files/pink-clipart-muffin-716861-9202011.png" alt="logo" width="50px" height="50px"></img>
          <ul id="nav-mobile" class="right hide-on-med-and-down">
-           <li><a href="sass.html">About us</a></li>
-           <li><a href="badges.html">A cupcake in the making</a></li>
-           <li><a href="collapsible.html">Pricing</a></li>
+           <li><a href="#about" class="nav-link">About us</a></li>
+           <li><a href="#cupcake-video" class="nav-link">A cupcake in the making</a></li>
+           <li><a href="collapsible.html" class="nav-link">Pricing</a></li>
          </ul>
        </div>
      </nav>
-
-     <ul class="sidenav" id="mobile-demo">
-       <li><a href="sass.html">Sass</a></li>
-       <li><a href="badges.html">Components</a></li>
-       <li><a href="collapsible.html">Javascript</a></li>
-       <li><a href="mobile.html">Mobile</a></li>
-     </ul>
    </header>
 
    <!--welcome message-->
    <div class="next-container black-container">
      <div class="container">
-       <p id="welcome-text">welcome</p>
+       <p class="welcome-text">welcome</p>
        <span class="normal-text"><b>We have the perfect cupcake for you.</b> Here in Creaty we believe that cupcakes are a mirror of our souls, and we want
          you to have the cupcake for your event that you have been dreaming of, and no less. We have the experience, we have the tools and we have the cupcakes. </span>
      </div>
@@ -96,13 +89,52 @@
      </div>
    </div>
 
-   dkaljsaldkfjsda
-   fsadjfsjdlfk
+   <!-- about us page -->
+   <section id="about">
+     <div class="next-container">
+       <div class="container">
+         <p class="welcome-text">about us</p>
+       </div>
+     </div>
+     <div class="container white-container brown-border">
+
+         <table>
+           <td>
+             <img id="cupcake-banner" src="https://www.mainejewish.org/wp-content/uploads/2017/10/Cupcake-Banner.jpg">
+             <p class="normal-text black-text">
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt laoreet rutrum. Curabitur vestibulum ultrices velit, sit amet tempus sapien tincidunt in. Proin efficitur, arcu ut volutpat molestie, leo ex rutrum libero, sed facilisis lectus lorem at est. Proin gravida risus nisi. In malesuada odio et iaculis consequat. Proin nulla lectus, ornare vel purus eu, tincidunt imperdiet ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse tortor est, vehicula eu convallis sed, suscipit et tellus.
+            <br><br>Aliquam erat volutpat. Nulla pretium facilisis augue sed porta. Nunc at dui sed quam condimentum posuere quis non ligula. Ut eget sollicitudin mi. Vivamus quis varius nisi, non laoreet tellus. Phasellus diam sem, luctus a pharetra vel, egestas quis augue. Nunc sit amet vulputate neque, in fringilla mauris. Maecenas a felis ac nisi dignissim rutrum nec non metus.</p>
+           </td>
+           <td>
+             <img id="cupcake-image" src="https://www.lifeloveandsugar.com/wp-content/uploads/2018/01/Chocolate-Covered-Strawberry-Cupcakes4.jpg" height="300px" width="200px">
+           </td>
+         </table>
+       </div>
+   </section>
+
+   <!--video-->
+   <section id="cupcake-video">
+     <div class="next-container">
+       <div class="container">
+         <p class="welcome-text">our cupcakes</p>
+       </div>
+     </div>
+     <div class="container">
+       <table>
+         <td>
+           <img id="cupcake-2" src="https://www.iheartkatiecakes.co.uk/wp-content/uploads/2017/11/Super-Moist-Chocolate-Cupcakes-2.jpg" width="300px" height="422px">
+         </td>
+         <td><iframe id="video" src="https://www.youtube.com/embed/MMspi_B3pyY" frameborder="0" allowfullscreen></iframe>
+      </td>
+       </table>
+      </div>
+
+   </section>
    <!--js-->
    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
    <script src="javascripts/main.js"></script>
    <script src="javascripts/slider.js"></script>
-
+   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
  </body>
 
  </html>

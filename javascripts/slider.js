@@ -4,7 +4,7 @@ var factList = [
   "are delicious.",
   "will always be personalized.",
   "are eco-friendly.",
-  "will be carried to your event.",
+  "will arrive to your event.",
 ];
 
 var perRow = factList.length;

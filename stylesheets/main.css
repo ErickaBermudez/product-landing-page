@@ -117,52 +117,58 @@ nav {
 }
 
 /* line 41, ../sass/main.scss */
+.white-container {
+  background-color: white;
+}
+
+/* line 44, ../sass/main.scss */
 .normal-text {
   color: white;
   font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
+  font-size: 15px;
 }
 
-/* line 47, ../sass/main.scss */
+/* line 50, ../sass/main.scss */
 .next-container {
   width: 65%;
   opacity: 0.8;
   margin-top: 0px;
   margin-bottom: 0px;
+  padding: 10px;
 }
-@media screen and (max-width: 700px) {
-  /* line 47, ../sass/main.scss */
+@media screen and (max-width: 900px) {
+  /* line 50, ../sass/main.scss */
   .next-container {
     width: 100%;
   }
 }
 
-/* line 58, ../sass/main.scss */
+/* line 62, ../sass/main.scss */
 .text-white {
   color: white;
 }
 
-/* line 62, ../sass/main.scss */
+/* line 66, ../sass/main.scss */
 .sub {
   font-weight: bold;
   font-size: 40px;
   font-family: 'Cookie';
 }
 
-/* line 68, ../sass/main.scss */
+/* line 72, ../sass/main.scss */
 .icon {
   font-size: 40px;
   color: #C9B2AA;
 }
 
-/* line 73, ../sass/main.scss */
+/* line 77, ../sass/main.scss */
 .extra-padding {
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
-/* line 78, ../sass/main.scss */
-#welcome-text {
+/* line 82, ../sass/main.scss */
+.welcome-text {
   font-family: 'Cookie', serif;
   color: white;
   font-size: 100px;
@@ -170,7 +176,7 @@ nav {
   margin-bottom: 0;
 }
 
-/* line 86, ../sass/main.scss */
+/* line 90, ../sass/main.scss */
 #slider {
   font-family: 'Cookie', serif;
   color: white;
@@ -179,36 +185,86 @@ nav {
   color: #C9B2AA;
 }
 
-@media screen and (max-width: 700px) {
-  /* line 94, ../sass/main.scss */
+@media screen and (max-width: 900px) {
+  /* line 98, ../sass/main.scss */
   #slides {
     display: none;
   }
 }
 
-/* line 100, ../sass/main.scss */
+/* line 104, ../sass/main.scss */
 #list-qualities {
   display: none;
 }
-@media screen and (max-width: 700px) {
-  /* line 100, ../sass/main.scss */
+@media screen and (max-width: 900px) {
+  /* line 104, ../sass/main.scss */
   #list-qualities {
     display: inline;
   }
 }
 
-/* line 107, ../sass/main.scss */
+/* line 111, ../sass/main.scss */
 .glow {
   text-shadow: 0 0 4px #FFF, 0 0 8px #FFF, 0 0 10px #FFF;
 }
 
-/* line 111, ../sass/main.scss */
+/* line 115, ../sass/main.scss */
 #submit {
   border-color: #009688 !important;
   text-transform: lowercase;
 }
 
-/* line 116, ../sass/main.scss */
+/* line 120, ../sass/main.scss */
 .form-group {
   color: white;
+}
+
+/* line 124, ../sass/main.scss */
+.black-text {
+  color: black !important;
+}
+
+/* line 128, ../sass/main.scss */
+.brown-border {
+  border: 1px solid #341616;
+  border-radius: 20px;
+}
+
+/* line 133, ../sass/main.scss */
+#cupcake-banner {
+  width: 100%;
+  display: none;
+}
+@media screen and (max-width: 900px) {
+  /* line 133, ../sass/main.scss */
+  #cupcake-banner {
+    display: inline;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  /* line 141, ../sass/main.scss */
+  #cupcake-image {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  /* line 147, ../sass/main.scss */
+  #cupcake-2 {
+    display: none;
+  }
+}
+
+/* line 153, ../sass/main.scss */
+#video {
+  width: 563px;
+  height: 422px;
+}
+@media screen and (max-width: 900px) {
+  /* line 153, ../sass/main.scss */
+  #video {
+    width: 400px;
+    height: 300px;
+  }
 }
