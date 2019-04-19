@@ -29,7 +29,7 @@
          <ul id="nav-mobile" class="right hide-on-med-and-down">
            <li><a href="#about" class="nav-link">About us</a></li>
            <li><a href="#cupcake-video" class="nav-link">A cupcake in the making</a></li>
-           <li><a href="collapsible.html" class="nav-link">Pricing</a></li>
+           <li><a href="#pricing" class="nav-link">Pricing</a></li>
          </ul>
        </div>
      </nav>
@@ -69,19 +69,18 @@
 
    <div class="next-container orange-container">
      <div class=container>
-       <p class="normal-text">Subscribe to our cupcake newsletter</p>
-       <form id="form">
+       <p class="normal-text">Cotize with us</p>
+       <form id="form" action="https://www.freecodecamp.com/email-submit">
          <div class="form-group">
            <table>
              <td>
                <div class="form-group">
                  <label for="email">Email address</label>
-                 <input id="email" type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
-                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                 <input name="email" id="email" type="email" placeholder="Enter your email address" required />
                </div>
              </td>
              <td>
-               <button id="submit" type="submit" class="btn btn-primary teal">Submit</button>
+               <input id="submit" type="submit" value="send" class="btn"></input>
              </td>
            </table>
          </div>
@@ -98,18 +97,21 @@
      </div>
      <div class="container white-container brown-border">
 
-         <table>
-           <td>
-             <img id="cupcake-banner" src="https://www.mainejewish.org/wp-content/uploads/2017/10/Cupcake-Banner.jpg">
-             <p class="normal-text black-text">
-             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt laoreet rutrum. Curabitur vestibulum ultrices velit, sit amet tempus sapien tincidunt in. Proin efficitur, arcu ut volutpat molestie, leo ex rutrum libero, sed facilisis lectus lorem at est. Proin gravida risus nisi. In malesuada odio et iaculis consequat. Proin nulla lectus, ornare vel purus eu, tincidunt imperdiet ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse tortor est, vehicula eu convallis sed, suscipit et tellus.
-            <br><br>Aliquam erat volutpat. Nulla pretium facilisis augue sed porta. Nunc at dui sed quam condimentum posuere quis non ligula. Ut eget sollicitudin mi. Vivamus quis varius nisi, non laoreet tellus. Phasellus diam sem, luctus a pharetra vel, egestas quis augue. Nunc sit amet vulputate neque, in fringilla mauris. Maecenas a felis ac nisi dignissim rutrum nec non metus.</p>
-           </td>
-           <td>
-             <img id="cupcake-image" src="https://www.lifeloveandsugar.com/wp-content/uploads/2018/01/Chocolate-Covered-Strawberry-Cupcakes4.jpg" height="300px" width="200px">
-           </td>
-         </table>
-       </div>
+       <table>
+         <td>
+           <img id="cupcake-banner" src="https://www.mainejewish.org/wp-content/uploads/2017/10/Cupcake-Banner.jpg">
+           <p class="normal-text black-text">
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt laoreet rutrum. Curabitur vestibulum ultrices velit, sit amet tempus sapien tincidunt in. Proin efficitur, arcu ut volutpat molestie, leo ex rutrum libero, sed
+             facilisis lectus lorem at est. Proin gravida risus nisi. In malesuada odio et iaculis consequat. Proin nulla lectus, ornare vel purus eu, tincidunt imperdiet ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada
+             fames ac turpis egestas. Suspendisse tortor est, vehicula eu convallis sed, suscipit et tellus.
+             <br><br>Aliquam erat volutpat. Nulla pretium facilisis augue sed porta. Nunc at dui sed quam condimentum posuere quis non ligula. Ut eget sollicitudin mi. Vivamus quis varius nisi, non laoreet tellus. Phasellus diam sem, luctus a
+             pharetra vel, egestas quis augue. Nunc sit amet vulputate neque, in fringilla mauris. Maecenas a felis ac nisi dignissim rutrum nec non metus.</p>
+         </td>
+         <td>
+           <img id="cupcake-image" src="https://www.lifeloveandsugar.com/wp-content/uploads/2018/01/Chocolate-Covered-Strawberry-Cupcakes4.jpg" height="300px" width="200px">
+         </td>
+       </table>
+     </div>
    </section>
 
    <!--video-->
@@ -125,10 +127,65 @@
            <img id="cupcake-2" src="https://www.iheartkatiecakes.co.uk/wp-content/uploads/2017/11/Super-Moist-Chocolate-Cupcakes-2.jpg" width="300px" height="422px">
          </td>
          <td><iframe id="video" src="https://www.youtube.com/embed/MMspi_B3pyY" frameborder="0" allowfullscreen></iframe>
-      </td>
+         </td>
        </table>
-      </div>
+     </div>
 
+   </section>
+
+   <!--pricing-->
+   <section id="pricing">
+     <div class="next-container">
+       <div class="container">
+         <p class="welcome-text">pricing</p>
+       </div>
+     </div>
+     <div class="container">
+
+       <div class="row">
+         <div class="col-md">
+
+           <div class="card" style="width: 18rem;">
+             <img src="https://i1.wp.com/www.livewellbakeoften.com/wp-content/uploads/2016/02/Chocolate-Covered-Strawberry-Cupcakes-Recipe-7.jpg?fit=1200%2C1200&ssl=1" class="card-img-top" alt="Normal cupcake">
+             <div class="card-body">
+               <p class="card-text">
+                 <b>Normal cupcake</b>
+                 <br><br>Natural, cute and with lots of fruit. What more could you wish for?
+                 <center><br><br>$2.00 dlls per cupcake</center>
+               </p>
+             </div>
+           </div>
+
+         </div>
+         <div class="col-md">
+
+           <div class="card" style="width: 18rem;">
+             <img src="http://static1.squarespace.com/static/5783f4048419c25f246ecfaf/5a5f55c0652dea3cec21aec7/5ae1a60baa4a9989a343da0e/1524737585772/Screenshot+2018-01-19+13.06.58.png?format=1500w" class="card-img-top" alt="Special cupcake">
+             <div class="card-body">
+               <p class="card-text"><b>Special cupcake</b>
+                 <br><br>All cupcakes are special, but these ones have more elaborate things.
+                 <center><br><br>$4.00 dlls per cupcake</center>
+               </p>
+             </div>
+           </div>
+
+         </div>
+         <div class="col-md">
+
+           <div class="card" style="width: 18rem;">
+             <img src="https://www.vanillacupcakery.com.au/wp-content/uploads/2018/04/IMG_2314.jpg" class="card-img-top" alt="Other">
+             <div class="card-body">
+               <p class="card-text">
+                 <b>Other cupcakes</b>
+                 <br><br>Contact us, we can make all kind of cupcakes.
+                 <center><br><br><br></center>
+               </p>
+             </div>
+           </div>
+
+         </div>
+       </div>
+     </div>
    </section>
    <!--js-->
    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
